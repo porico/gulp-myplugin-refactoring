@@ -1,0 +1,52 @@
+{
+  "name": "myplugin-refactoring",
+  "description": "replace 0px to 0.",
+  "version": "0.0.1",
+  "author": {
+    "name": "Yukiko Hori",
+    "email": "porico@imjp.co.jp"
+  },
+  "dependencies": {
+    "gulp-util": "~2.2.14",
+    "through2": "~0.4.2"
+  },
+  "devDependencies": {
+    "tape": "~2.4.2"
+  },
+  "engines": {
+    "node": ">= 0.9"
+  },
+  "homepage": "",
+  "keywords": [
+    "gulpplugin"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/terinjokes/gulp-uglify.git"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "bugs": {
+    "url": "https://github.com/terinjokes/gulp-uglify/issues"
+  },
+  "_id": "gulp-uglify@0.2.1",
+  "dist": {
+    "shasum": "34f13ecb16c60d86fd84e2093823e62ff72f2ece",
+    "tarball": "http://registry.npmjs.org/gulp-uglify/-/gulp-uglify-0.2.1.tgz"
+  },
+  "_from": "gulp-uglify@^0.2.1",
+  "_npmVersion": "1.3.26",
+  "_npmUser": {
+    "name": "Yukiko Hori",
+    "email": "porico@imjp.co.jp"
+  },
+  "maintainers": [
+    {
+      "name": "Yukiko Hori",
+      "email": "porico@imjp.co.jp"
+    }
+  ]
+}
