@@ -33,7 +33,7 @@ module.exports = function (outputFileName) {
 
 		// replaceの実行
 		cont = cont.replace(/: ?0px/, ': 0');
-		cont = cont.replace(/ 0px/, ': 0');
+		cont = cont.replace(/ 0px/, ' 0');
 
 		// 出力ファイルを生成（新規ファイル生成にはgulp-utilのFileを利用する）
 		var output = new gutil.File({
